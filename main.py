@@ -44,7 +44,7 @@ def detect_yeast_cells(image):
 
 def run():
     # Load yeast cells photo/snapshot
-    image = cv2.imread("yeast_cells.jpg")
+    image = cv2.imread("tests/yeast_cells.jpg")
     detect_yeast_cells(image.copy())
     cv2.destroyAllWindows()
 
